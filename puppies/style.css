@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff582;
+}
+
+h1{
+    font-family: 'Rubik Distressed', cursive;
+	font-size:4em;
+    color: #242f1c;
+    text-align:center; 
+    font-weight:bold;
+}
+nav ul{
+	list-style-type: none;
+    text-align: center;
+    background-color: #869779;
+    padding: 15px 0;
+    margin-top:0;
+    border-top: #022837 2px solid;
+    border-bottom: #022837 2px solid;
+    
+
+}
+
+nav li{
+	display: inline;
+    margin: 5px 10px;
+    
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight: 900;    
+    
+}
+
+nav a:link{
+	color: #0C303E;
+}
+nav a:visited{
+	color: #0C303E;
+}
+nav a:hover{
+	color: white;
+    text-decoration:none;
+}
+nav a:active{
+	color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+
+.home-hero{
+	background-image:url(images/header.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px; 
+	border-radius: 20px;
+}
+
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+    font-size:x-large;
+}
+h3{
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:bold;
+    font-size: large;
+    
+}
+img{
+    margin:0 auto;
+    display:block;
+    border-radius: 600px;
+    border: 2px solid #35d269;
+    
+}
+.col-sm-4 h3{
+    text-align:center;
+}
+blockquote{
+	margin:30px;
+}
+footer{
+	color:white;
+	background-color: #869779;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	display:block;
+}
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+	font-size: 5em;
+    color: #112b2c;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+    color: #35cad2;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+    .home-hero{
+        background-size: 90%;
+        background-repeat: no-repeat;
+
+    }
+
+
+}
+

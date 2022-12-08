@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>www.Aziz.com:Form</title>
+	<meta name="description" content="This is the home page of a Sharp Toes, a mythical student Web Development at Saint Paul College.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+  <header>
+    <img src="images/header.jpg" height="100px" width="275" alt="aziz  logo" class="img-fluid logo">	
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="table.html">Table</a></li>
+      <li><a href="form.html">Form</a></li>
+      <li><a href="multimedia.html">Multimedia</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Contact us </h2>
+    <p>This is a form that I made in HTML and styled with CSS. This form doesn't contact me, but it does process with a PHP script. If you fill it out and submit the form, the form checks for completeness and prints your form entries to the screen.
+    </p>
+
+
+    <form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+      <h2>Report Form</h2>
+      <p>Submit your reports using this form. </p>
+
+      <label for="first_name">*First Name</label>
+      <input type="text" id="first_name" name="first_name" required>
+
+      <label for="last_name">*Last Name</label>
+      <input type="text" id="last_name" name="last_name" required>
+
+      <label for="email">*Email</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="phone">*Telephone</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="comments">*Your Report</label>
+      <textarea id="comments" name="comments"></textarea>
+
+      <input type="submit" id="submit" value="Send Report">
+
+    </form>
+
+  </main>
+
+
+  <footer>
+    <p>&copy; Copyright ABDILZIZ 2022. <br>This website is a sample portfolio website made for students of Saint Paul College. It features a mythical student named ABDILZIZ's WEBSITE. </p>
+  </footer>
+  	<!--jQuery, Popper, and Bootstrap Javascript files-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

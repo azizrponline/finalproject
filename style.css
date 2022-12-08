@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+
+    /* navbar */
+}
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.material-icons-outlined {
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.navbar-brand > .material-icons-outlined {
+    font-size: 40px;
+}
+
+
+
+  /* Style all font awesome and icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+   
+    
+  }
+  .fa-solid{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  .fa-mobile{
+    font-size: 40px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Gallery */
+.Gallery{
+    text-align: center;
+    text-transform: uppercase;
+    color: #0b17ed;
+    font-size: 3em;
+    padding-top: 50px;
+      letter-spacing: 20px;
+    }
+    #head{
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    
+    .gallery .preview{
+        width:100%;
+        height:auto;
+    }
+    
+    .gallery .gallery-thumbnails img {
+        width:100px;
+        height:75px;
+        margin: 3px 10px 10px 0;
+    }
+    
+    .gallery .gallery-thumbnails img:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+    
+    .gallery .preview img#preview {
+        padding: 1px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto ;
+        display: block ;
+    }
+    
+    .gallery .preview img#preview {
+        padding: 1px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto ;
+        display: block ;
+        border-radius: 20px ;
+    }
+
+    /* java game */
+
+    .center-text{
+        text-align:center;
+    }
+    .game-controls{
+        margin-top: 20px;
+        text-align:center;
+    }
+    
+    .myButton {
+        box-shadow:inset 0px 1px 3px 0px #91b8b3;
+        background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+        background-color:#768d87;
+        border-radius:5px;
+        border:1px solid #566963;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:11px 23px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #2b665e;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+        background-color:#6c7c7c;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+    label{
+        float: left;
+        width: 8em;
+        padding-right: 1em;
+    }
+    input, textarea{
+        margin-bottom:1em;
+        display:block;
+        border-radius: 5px;
+    }
+    #submit{
+        display:block;
+        background-color: lightgray;
+        height: 30px;
+    }
+    textarea{
+        height: 100px;
+        margin-top: 10px;
+    }
+    
+    .center-game{
+        margin:0 auto;
+    }
+    .example{
+        box-shadow: 2px 2px 2px gray;
+        margin: 10px;
+    }
+    .example:hover{
+        opacity: .8;
+    }
+    
+    .cen{
+        text-align: center;
+    }
+    canvas {
+        background-color: #0beb46;
+        margin: 0 auto;
+        display: block;
+        background-image: url(images/game.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    }
+    
+    .myButton {
+        box-shadow:inset 0px 1px 3px 0px #91b8b3;
+        background:linear-gradient(to bottom, #000000 5%, #31e8e8 100%);
+        padding: 0 30px 0 30px;
+        font-size: 30px;
+        
+    }
+
+    .canvas-mobile{
+        padding-right: 150px;
+    }
+
+    .canvas-mobile >h1 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .game-main{
+        padding-left: 80px;
+        
+    }
+    .lead{
+        padding-left: 450px;
+    }
+
+
+    /* mobile number */
+    .mobile-resume{
+        padding-right: 70px;
+    }
+    
+
+
+@media only screen and (max-width: 768px) {
+
+    /* mobile number portfolio */
+    .portfolio-h1{
+
+        padding-top: 40px;
+
+
+    }
+
+    /* java game and title */
+
+    canvas {
+        width: 135%;
+    }
+
+    .myButton {
+ 
+        margin-left: 120px;
+        
+    }
+    
+    .canvas-mobile >h5 {
+        
+        padding-top: 10px;
+        position:relative; left:80px
+        
+    }
+
+    .canvas-mobile >h1 {
+        padding-top: 20px;
+        position:relative; left:80px
+        
+    }
+
+    .game-main{
+        padding-left: 0;
+        
+    }
+
+    /* image hero */
+
+
+    .lead{
+        padding-left: 0;
+    }
+
+    /* image hero */
+
+    .portfolio{
+ 
+        text-align: center;
+    }
+
+    .hero{
+        position:relative; top:-80px
+
+    }
+
+}
